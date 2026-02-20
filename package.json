@@ -1,0 +1,27 @@
+{
+  "name": "lnd-js",
+  "version": "1.0.0",
+  "description": "Proyectos de actividades de LND en JS",
+  "main": "index.js",
+"scripts": {
+  "lint": "node node_modules/eslint/bin/eslint.js .",
+  "fix": "node node_modules/eslint/bin/eslint.js . --fix"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BriGom/LND-JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/BriGom/LND-JS/issues"
+  },
+  "homepage": "https://github.com/BriGom/LND-JS#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.0",
+    "globals": "^17.3.0"
+  }
+}
