@@ -13,6 +13,7 @@ export default [
       "no-unused-vars": "warn",  // Solo avisa, no corta el flujo
       "no-undef": "error", // Error si la variable no existe
       "semi": ["error", "always"], // Puntos y coma obligatorios
+      "no-extra-semi": "error", // Puntos y coma inutiles eliminados
       "quotes": ["error", "double"], // Comillas dobles siempre
       "prefer-const": "error", // Fuerza el uso de const
       "indent": ["error", 2],  // 2 espacios de sangría
