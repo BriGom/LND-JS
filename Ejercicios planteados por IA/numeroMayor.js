@@ -6,15 +6,15 @@ Si son iguales, que lo indique. */
 
 function numeroMayor() {
   if (n > m) {
-    console.log(n, " es mayor que ", m)
+    console.log(n, " es mayor que ", m);
   } else if (n < m) {
-    console.log(m, " es mayor que ", n)
+    console.log(m, " es mayor que ", n);
 
   } else {
     console.log("Ambos números son iguales")
   }
 }
 const n = Number(prompt("Primer número: "));
-const m = Number(prompt("Segundo número: ")
+const m = Number(prompt("Segundo número: ");
 
-numeroMayor(n,m)
+numeroMayor(n,m);
