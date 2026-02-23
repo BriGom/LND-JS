@@ -7,7 +7,7 @@ Muestra el resultado en consola.
 const celsius = Number(prompt("¿Qué temperatura (celsius) hace?"));
 
 function CaF(celsius){
-  let farhen =(celsius * 1.8)+32
+  const farhen =(celsius * 1.8)+32;
   console.log(celsius + " °C equivalen a " + farhen + "°F.");
   
 }
