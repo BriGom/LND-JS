@@ -33,6 +33,7 @@ Ejemplo de salida:
 Declara 5 variables con números diferentes.
 Cuenta cuántos son positivos.
 Muestra el total en consola.
+
 ### 6️⃣ Calculadora simple
 Crea una pequeña calculadora que:
 1. Tenga dos números.
