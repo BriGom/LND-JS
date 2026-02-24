@@ -6,18 +6,18 @@ Crea una pequeña calculadora que:
 4. Muestre el resultado. */
 
 // Usamos este orden para que los prompts sean más naturales
-let n = Number(prompt("Ingrese el primer número"));
-let op = prompt("Ingrese el operador (+, -, *, /) ");
-let m = Number(prompt("Ingrese el segundo número"));
+const n = Number(prompt("Ingrese el primer número"));
+const op = prompt("Ingrese el operador (+, -, *, /) ");
+const m = Number(prompt("Ingrese el segundo número"));
 
-if (isNaN(n) || isNaN(m)) { // validamos que sean números, sino, error
+if (isNaN(n) || isNaN(m)) { // Validamos que sean números, sino, error
   console.log("Uno de los vslores no es un número.");
 } else {
   console.log("El resultado es: " + calc(n, m, op));
 }
 
 function calc(n1, n2, res){
-  let x; // variable temporal
+  let x; // Variable temporal
   switch (res) {
   case "+":
     x = n + m;
@@ -34,10 +34,10 @@ function calc(n1, n2, res){
     } else {
       x = n / m;
     }
-  default: //similsr a un else en un if
-    break;
-    return "Operación no válida."
-}
+    break; 
+  default: // Similar a un else en un if
+    return "Operación no válida.";
+  }
   return x;
 }
 calc(n,m, op);
