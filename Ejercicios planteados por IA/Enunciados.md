@@ -50,7 +50,8 @@ Muestra el resultado final.
 ### 8️⃣ Número mayor en una lista
 1. Declara 4 números en variables distintas.
 2. Encuentra cuál es el mayor usando condicionales.
-3. Muestra el resultado. (No uses arrays todavía si aún no los viste).
+3. Muestra el resultado. (No uses arrays todavía si aún no los viste
+
 ### 9️⃣ Simulador de contraseña
 1. Declara una variable con una contraseña correcta. 
 2. Declara otra con una contraseña ingresada.
