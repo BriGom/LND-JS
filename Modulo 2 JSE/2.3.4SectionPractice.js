@@ -1,3 +1,4 @@
+/* eslint-disable no-useless-assignment */
 
 /* "use  strict";  
 const  prefix  =  "username_";  
@@ -28,6 +29,7 @@ let  prefixedUserName;
 //const  prefixedUserName;  
    
 userName  =  "John";  
+// eslint-disable-next-line prefer-const
 prefixedUserName  =  prefix  +  userName;  
    
 console.log(prefixedUserName  /*+  prefixedUserName2*/);  

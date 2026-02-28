@@ -9,7 +9,7 @@ function unoHastaN(n){
   let suma = 0; // variable acumuladora. Nace y muere en la funcion
   
   for (let i = 1; i <= n; i++) {
-    let ant = suma; // Guardamos el valor de suma antes de cambiarlo
+    const ant = suma; // Guardamos el valor de suma antes de cambiarlo
     suma += i;
     
     console.log(ant + " + " + i + " = " + suma); 

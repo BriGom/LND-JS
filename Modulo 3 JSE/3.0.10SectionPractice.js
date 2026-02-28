@@ -1,3 +1,5 @@
+/* eslint-disable no-constant-binary-expression */
+/* eslint-disable eqeqeq */
 
 /*Arithmetic operators
 Exercise 1: Fill in the missing operators to get the expected result (replace the underscore symbol with the appropriate operator
@@ -40,3 +42,6 @@ function operadoresLogicos() {
   console.log(false === false || true);
   console.log(true || false || false && true);
 }
+operadoresAritmeticos();
+operadoresComparacion();
+operadoresLogicos();
