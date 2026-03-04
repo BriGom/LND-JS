@@ -23,38 +23,39 @@ Pasos:
     5. Muestra en la consola el primer y el último contacto de la lista, incluyendo el nuevo contacto añadido por el usuario.
 */
 
-const contacts = [{
-  name: "Maxwell Wright",
-  phone: "(0191) 719 6495",
+const contactos = [{
+  nombre: "Maxwell Wright",
+  telefono: "(0191) 719 6495",
   email: "Curabitur.egestas.nunc@nonummyac.co.uk"
 }, {
-  name: "Raja Villarreal",
-  phone: "0866 398 2895",
+  nombre: "Raja Villarreal",
+  telefono: "0866 398 2895",
   email: "posuere.vulputate@sed.com"
 }, {
-  name: "Helen Richards",
-  phone: "0800 1111",
+  nombre: "Helen Richards",
+  telefono: "0800 1111",
   email: "libero@convallis.edu"
 }];
 
 // write your code here
 // 1 a 3 - Creamos variables para almacenar los datos del nuevo contacto que el usuario introducirá a través de los cuadros de diálogo prompt.
-const name = prompt("Introduce el nombre del nuevo contacto:");
-const phone = prompt("Introduce el número de teléfono del nuevo contacto:");
+const nombre = prompt("Introduce el nombre del nuevo contacto:");
+const telefono = prompt("Introduce el número de teléfono del nuevo contacto:");
 const email = prompt("Introduce el correo electrónico del nuevo contacto:");
 
 // 4 - Crear un nuevo objeto de contacto utilizando los datos proporcionados por el usuario.
 const nuevoContacto = {
-  name: name,
-  phone: phone,
+  nombre: nombre,
+  telefono: telefono,
   email: email
 };
 
 // Añadir el nuevo contacto al final del array de contactos.
-contacts.push(nuevoContacto);
+contactos.push(nuevoContacto);
 
 //5 - Mostrar en la consola el primer y el último contacto de la lista.
-const last = contacts.length - 1;
+const last = contactos.length - 1;
 
-console.log(`${contacts[0].name} / ${contacts[0].phone} / ${contacts[0].email}`);
-console.log(`${contacts[last].name} / ${contacts[last].phone} / ${contacts[last].email}`);
+// EL $ indica que se va a insertar una variable dentro de la cadena de texto, y las llaves {} indican el nombre de la variable que se va a insertar.
+console.log(`${contactos[0].nombre} / ${contactos[0].telefono} / ${contactos[0].email}`);
+console.log(`${contactos[last].nombre} / ${contactos[last].telefono} / ${contactos[last].email}`);

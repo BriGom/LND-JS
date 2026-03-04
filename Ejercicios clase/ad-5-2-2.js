@@ -28,7 +28,7 @@ contactos.push({
   email: "risus.Quisque@urna.ca"
 });
 
-
+// eslint-disable-next-line
 ultimo = contactos.length - 1; // Calculamos el índice del último contacto agregado
 
 console.log("Primer contacto: " + contactos[0].nombre + " / " + contactos[0].telefono + " / " + contactos[0].email);
