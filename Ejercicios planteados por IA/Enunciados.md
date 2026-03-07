@@ -63,3 +63,5 @@ Declara una palabra en una variable y:
 - Recorre la palabra con un bucle.
 - Cuenta cuántas vocales tiene.
 - Muestra el total.
+- 
+---
