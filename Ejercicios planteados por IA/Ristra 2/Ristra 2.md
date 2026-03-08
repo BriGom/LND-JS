@@ -38,3 +38,5 @@ Usa un bucle para imprimir en consola un patrón escalonado de 5 niveles:
 ****
 *****
 ```
+
+---
